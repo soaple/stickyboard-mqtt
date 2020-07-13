@@ -1,0 +1,49 @@
+{
+    "name": "@stickyboard/mqtt",
+    "version": "0.1.0",
+    "description": "MQTT component for StickyBoard",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --watch",
+        "build": "webpack"
+    },
+    "dependencies": {
+        "prop-types": "^15.7.2",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "styled-components": "^4.4.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/soaple/stickyboard-mqtt.git"
+    },
+    "keywords": [
+        "stickyboard",
+        "react",
+        "dashboard",
+        "component"
+    ],
+    "author": "soaple",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/soaple/stickyboard-mqtt/issues"
+    },
+    "homepage": "https://github.com/soaple/stickyboard-mqtt#readme",
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "@babel/plugin-proposal-export-default-from": "^7.5.2",
+        "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+        "@babel/plugin-syntax-export-default-from": "^7.2.0",
+        "@babel/preset-env": "^7.5.5",
+        "@babel/preset-react": "^7.0.0",
+        "babel-eslint": "^7.1.1",
+        "babel-loader": "^8.0.6",
+        "css-loader": "^3.2.0",
+        "prettier": "^1.19.1",
+        "style-loader": "^1.0.0",
+        "webpack": "^4.38.0",
+        "webpack-cli": "^3.3.6"
+    }
+}
