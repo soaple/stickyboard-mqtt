@@ -9,6 +9,7 @@
         "build": "webpack"
     },
     "dependencies": {
+        "@material-ui/core": "^4.11.0",
         "mqtt": "^4.1.0",
         "prop-types": "^15.7.2",
         "react": "^16.8.6",
