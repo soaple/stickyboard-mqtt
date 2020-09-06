@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Textfit } from 'react-textfit';
 import styled, { keyframes, css }  from 'styled-components';
-import CircularProgress from '@material-ui/core/CircularProgress';
+import ClipLoader from "react-spinners/ClipLoader";
 
 import MqttClient from './MqttClient';
 
@@ -126,7 +126,9 @@ class MqttComponent extends React.Component {
         if (message == ''){
           return (
             <Wrapper>
-              <CircularProgress color="secondary" />
+              <ClipLoader
+                size={80}
+                color={"#39C2F7"}/>
             </Wrapper>
           );
         }else {
